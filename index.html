@@ -37,8 +37,23 @@
     </div>
 
     <!-- Botpress Chatbot Scripts -->
-<script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2026/05/23/14/20260523140259-BWLHUR50.json"></script>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script>
+      window.botpressWebChat.init({
+          "composerPlaceholder": "Chat with Syber_Expert",
+          "botConversationDescription": "Cyber Security Expert Bot",
+          "botId": "586737db-3151-46ab-b196-857c0e866e4a",
+          "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+          "messagingUrl": "https://messaging.botpress.cloud",
+          "clientId": "586737db-3151-46ab-b196-857c0e866e4a",
+          "webhookId": "0b15b2e5-dcad-4131-a20c-0359f635677b",
+          "lazySocketUpdate": true,
+          "themeName": "cyan",
+          "botName": "Syber_Expert",
+          "frontendVersion": "v1",
+          "useSessionStorage": true
+      });
+    </script>
 
 </body>
 </html>
